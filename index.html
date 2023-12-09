@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korean Fighters Database</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="title-container">
+            <h1>Korean Fighters Database</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#news">News</a></li>
+                <li><a href="#rankings">Rankings</a></li>
+                <li><a href="#forum">Forum</a></li>
+                <li><a href="#organizations">Organizations</a></li>
+                <li><a href="#more">More</a></li>
+                <li class="search-container">
+                    <form action="/search" method="get">
+                        <input type="text" placeholder="Search fighters..." name="search">
+                        <button type="submit">Search</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <section class="news">
+            <article class="news-item"> <!-- News item 1 --> </article>
+            <article class="news-item"> <!-- News item 2 --> </article>
+            <!-- More news items -->
+        </section>
+
+        <aside class="rankings">
+            <h2>Pound-for-Pound Rankings</h2>
+            <ol>
+                <li>1. Fighter Name</li>
+                <!-- More rankings -->
+            </ol>
+        </aside>
+    </div>
+
+    <footer>
+        <!-- Footer content -->
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
